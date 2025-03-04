@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Administrador - Bocadillos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Formulario de administración de bocadillos">
+        <meta name="keywords" content="Formulario Administrador, Bocadillos">
+
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/admin.css">
+    </head>
+    
+    <body>
+        
+        <div id="contenedor">
+            <div id="central">
+                <div class="titulo">
+                    PEDIDOS
+                </div>
+                <form id="adminform">
+                    <div class="alumnos-lista">
+                        <!-- Alumnos con checkboxes -->
+                        <div class="alumno">
+                            <span class="nombre">Alumno 1</span>
+                            <div class="checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="alumno1_frio"> F (Frío)
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="alumno1_caliente"> C (Caliente)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="alumno">
+                            <span class="nombre">Alumno 2</span>
+                            <div class="checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="alumno2_frio"> F (Frío)
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="alumno2_caliente"> C (Caliente)
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="alumno">
+                            <span class="nombre">Alumno 3</span>
+                            <div class="checkbox-group">
+                                <label>
+                                    <input type="checkbox" name="alumno3_frio"> F (Frío)
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="alumno3_caliente"> C (Caliente)
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Más alumnos según sea necesario -->
+                    </div>
+
+                    <button type="submit" title="Guardar">Guardar</button>
+                </form>
+            </div>
+        </div>
+            
+    </body>
+</html>
